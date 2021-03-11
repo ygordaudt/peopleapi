@@ -1,4 +1,4 @@
-<h2>Sistema de gerenciamento de pessoas desenvolvido em API REST com o Spring Boot</h2>
+<h2>Sistema de gerenciamento de pessoas desenvolvido em API REST com o framework Spring Boot e hospedagem no Heroku</h2>
 
 Este sistema foi desenvolvido com o intuito de estudar as referidas tecnologias de Java e para apresentação de projeto
 no BootCamp FULLSTACK da Everis, a partir da plataforma Digital Innovation One.
@@ -9,7 +9,15 @@ O presente material conta com os seguintes itens:
 * Desenvolvimento de operações de gerenciamento de usuários (Cadastro, leitura, atualização e remoção de pessoas de um sistema);
 * Relação de cada uma das operações acima com o padrão arquitetural REST;
 * Desenvolvimento de testes unitários para validação das funcionalidades;
-* Implantação do sistema na nuvem através do Heroku.
+* Implantação do sistema na nuvem através do Heroku (https://yd-peopleapi-live.herokuapp.com/).
+
+Dentre as dependências importadas pelo Spring (https://start.spring.io), temos as seguintes:
+* Spring Boot DevTools (DevTools)
+* Lombok (DevTools)
+* Spring Web (Web)
+* Spring Boot Actuator (OPS)
+* Spring Data JPA (SQL)
+* H2 Database (SQL)
 
 Para executar o projeto no terminal, digite o seguinte comando:
 
